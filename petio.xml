@@ -18,12 +18,12 @@
     <Overview>Petio is a third party companion app available to Plex server owners to allow their users to request, review and discover content</Overview>
     <WebUI>http://[IP]:[PORT:7777]</WebUI>
     <TemplateURL>https://raw.githubusercontent.com/blake1029384756/petio-unraid/master/petio.xml</TemplateURL>
-    <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+    <Icon></Icon>
     <ExtraParams/>
     <PostArgs/>
     <DonateText/>
     <DonateLink/>
-    <Config Name="" Target="/app/api/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-    <Config Name="" Target="/app/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-    <Config Name="" Target="7777" Default="" Mode="" Description="" Type="Port" Display="always" Required="false" Mask="false"/>
+    <Config Name="Config Path" Target="/app/api/config" Default="/mnt/user/appdata/petio/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="Logs Path" Target="/app/logs" Default="/mnt/user/appdata/petio/logs" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="WebUI Port" Target="7777" Default="7777" Mode="" Description="" Type="Port" Display="always" Required="false" Mask="false"/>
 </Container>

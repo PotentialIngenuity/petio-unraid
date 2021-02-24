@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-    <Container version="2">
+<Container version="2">
     <Name>petio</Name>
     <Repository>petio-team/petio</Repository>
     <Registry>ghcr.io/petio-team/petio</Registry>
     <Branch>
-    <Tag>latest</Tag>
-    <TagDescription>Latest stable release of Petio</TagDescription>
+        <Tag>latest</Tag>
+        <TagDescription>Latest stable release of Petio</TagDescription>
     </Branch>
-    <Branch>
-    <Tag>dev</Tag>
-    <TagDescription>Latest beta release of Petio</TagDescription>
+        <Branch>
+        <Tag>dev</Tag>
+        <TagDescription>Latest beta release of Petio</TagDescription>
     </Branch>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
@@ -17,7 +17,7 @@
     <Project>https://github.com/petio-team/petio</Project>
     <Overview>Petio is a third party companion app available to Plex server owners to allow their users to request, review and discover content</Overview>
     <WebUI>http://[IP]:[PORT:7777]</WebUI>
-    <TemplateURL>https://raw.githubusercontent.com/blake1029384756/petio-unraid/master/petio.xml<TemplateURL/>
+    <TemplateURL>https://raw.githubusercontent.com/blake1029384756/petio-unraid/master/petio.xml</TemplateURL>
     <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
     <ExtraParams/>
     <PostArgs/>

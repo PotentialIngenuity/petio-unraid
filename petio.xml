@@ -17,7 +17,7 @@
     <Project>https://github.com/petio-team/petio</Project>
     <Overview>Petio is a third party companion app available to Plex server owners to allow their users to request, review and discover content</Overview>
     <WebUI>http://[IP]:[PORT:7777]</WebUI>
-    <TemplateURL>https://github.com/blake1029384756/petio-unraid/master/petio.xml<TemplateURL/>
+    <TemplateURL>https://raw.githubusercontent.com/blake1029384756/petio-unraid/master/petio.xml<TemplateURL/>
     <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
     <ExtraParams/>
     <PostArgs/>

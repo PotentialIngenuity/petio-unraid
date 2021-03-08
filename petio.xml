@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>petio</Name>
-    <Repository>petio-team/petio</Repository>
+    <Repository>ghcr.io/petio-team/petio</Repository>
     <Registry>ghcr.io/petio-team/petio</Registry>
     <Branch>
         <Tag>latest</Tag>
-        <TagDescription>Latest stable release of Petio</TagDescription>
+        <TagDescription>Latest fully stable release of Petio</TagDescription>
     </Branch>
-        <Branch>
+    <Branch>
+        <Tag>preview</Tag>
+        <TagDescription>Latest stable testing release of Petio</TagDescription>
+    </Branch>
+    <Branch>
         <Tag>dev</Tag>
-        <TagDescription>Latest beta release of Petio</TagDescription>
+        <TagDescription>Latest unstable dev release of Petio</TagDescription>
     </Branch>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
